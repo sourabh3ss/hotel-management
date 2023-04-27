@@ -19,7 +19,8 @@
         "build": "rimraf resources mta_archives && mbt build --mtar archive",
         "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
         "watch-manage-hotels": "cds watch --open manage-hotels/webapp/index.html?sap-ui-xx-viewCache=false",
-        "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false"
+        "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false",
+        "watch-manage-hotel": "cds watch --open manage-hotel/webapp/index.html?sap-ui-xx-viewCache=false"
     },
     "cds": {
         "build": {
@@ -48,6 +49,8 @@
     "sapux": [
         "app/hotel-management",
         "app/manage-hotels",
+        "app/project1",
+        "app/manage-hotel",
         "app/project1"
     ],
     "devDependencies": {

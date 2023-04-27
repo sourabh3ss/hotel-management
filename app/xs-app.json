@@ -1,5 +1,4 @@
 {
-  "authenticationMethod": "none",
   "routes": [
     {
       "source": "^/app/(.*)$",
@@ -14,5 +13,5 @@
       "csrfProtection": true
     }
   ],
-  "welcomeFile": "/hotelmanagement"
+  "welcomeFile": "/project1"
 }
